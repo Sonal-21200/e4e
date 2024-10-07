@@ -1,54 +1,87 @@
 ---
-title: Pricing
+title: Courses
 layout: pricing
 draft: false
 plans:
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
+- title: Engineering & Technology
+  subtitle: Explore top programs in engineering and technology.
+  price: 1000
+  type: course
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - Undergraduate Programs
+    - Postgraduate Programs
+    - Diploma Programs
+    - Certification Programs
   button:
-    label: Get started for free
-    link: "/contact"
+    label: Browse Courses
+    link: "/courses/engineering-technology"
 
-- title: Professional Plan
-  subtitle: Best For Professionals
-  price: 69
-  type: month
+- title: Medicine & Health Sciences
+  subtitle: Best courses in the medical field.
+  price: 1500
+  type: course
   recommended: true
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
+    - Undergraduate Programs
+    - Postgraduate Programs
+    - Certification Programs
   button:
-    label: Get started
-    link: "/contact"
+    label: Browse Courses
+    link: "/courses/medicine-health-sciences"
 
-- title: Business Plan
-  subtitle: Best For Large Individuals
-  price: 99
-  type: month
+- title: Business & Management
+  subtitle: Top programs for future business leaders.
+  price: 1200
+  type: course
   features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
+    - Undergraduate Programs
+    - Postgraduate Programs
+    - Diploma Programs
   button:
-    label: Get started
-    link: "/contact"
+    label: Browse Courses
+    link: "/courses/business-management"
+
+- title: Humanities & Arts
+  subtitle: Explore a wide range of humanities and arts programs.
+  price: 900
+  type: course
+  features:
+    - Undergraduate Programs
+    - Postgraduate Programs
+    - Certification Programs
+  button:
+    label: Browse Courses
+    link: "/courses/humanities-arts"
+
+- title: Science & Research
+  subtitle: Dive into the world of scientific research and discovery.
+  price: 1300
+  type: course
+  features:
+    - Undergraduate Programs
+    - Postgraduate Programs
+    - Certification Programs
+  button:
+    label: Browse Courses
+    link: "/courses/science-research"
+
+- title: Vocational and Certification Programs
+  subtitle: Acquire practical skills with certification programs.
+  price: 800
+  type: course
+  features:
+    - Vocational Training
+    - Certification Programs
+  button:
+    label: Browse Courses
+    link: "/courses/vocational-certification"
 
 call_to_action:
-  title: Need a larger plan?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  title: Can't Find the Right Course?
+  content: Use our advanced search and filter tools to narrow down courses that match your interests, budget, and career goals. If you're still unsure, feel free to reach out to our team for personalized guidance.
   image: '/images/cta.svg'
   button:
     enable: true
     label: "Contact Us"
     link: "/contact"
-    
 ---

@@ -5,11 +5,15 @@
       "url": "/"
     },
     {
-      "name": "Blog",
+      "name": "Blogs",
       "url": "/blogs"
     },
     {
-      "name": "Pricing",
+     "name": "About Us",
+      "url": "/about"
+    },
+    {
+      "name": "Courses",
       "url": "/pricing"
     },
     {
@@ -17,7 +21,7 @@
       "url": "/contact"
     },
     {
-      "name": "FAQ",
+      "name": "Institutiona & Organizations",
       "url": "/faq"
     }
   ],
@@ -26,7 +30,7 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
+          "text": "Courses",
           "url": "/pricing"
         },
         {
@@ -45,10 +49,6 @@
         {
           "text": "Platform",
           "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
         }
       ]
     },
@@ -56,7 +56,7 @@
       "name": "Support",
       "menu": [
         {
-          "text": "FAQ",
+          "text": "Institutiona & Organizations",
           "url": "/faq"
         },
         {

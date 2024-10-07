@@ -4,6 +4,7 @@ import Default from "@layouts/Default";
 import Faq from "@layouts/Faq";
 import Pricing from "@layouts/Pricing";
 import SeoMeta from "@layouts/SeoMeta";
+import About from "@layouts/About"; // Import the About component
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
 // for all regular pages
@@ -32,12 +33,15 @@ const RegularPages = async ({ params }) => {
         <Pricing data={regularPageData} />
       ) : layout === "faq" ? (
         <Faq data={regularPageData} />
+      ) : layout === "about" ? (
+        <About data={regularPageData} /> 
       ) : (
         <Default data={regularPageData} />
       )}
     </>
   );
 };
+
 export default RegularPages;
 
 // for regular page routes
